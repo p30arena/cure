@@ -20,15 +20,15 @@ class MockTransport extends _i1.Mock implements _i2.Transport {
   _i3.Future<void> connectAsync(
           String? url, _i2.TransferFormat? transferFormat) =>
       (super.noSuchMethod(
-          Invocation.method(#connectAsync, [url, transferFormat]),
-          Future.value(null)) as _i3.Future<void>);
+              Invocation.method(#connectAsync, [url, transferFormat]))
+          as _i3.Future<void>);
   @override
-  _i3.Future<void> sendAsync(Object? data) => (super.noSuchMethod(
-          Invocation.method(#sendAsync, [data]), Future.value(null))
-      as _i3.Future<void>);
+  _i3.Future<void> sendAsync(Object? data) =>
+      (super.noSuchMethod(Invocation.method(#sendAsync, [data]))
+          as _i3.Future<void>);
   @override
   _i3.Future<void> stopAsync() =>
-      (super.noSuchMethod(Invocation.method(#stopAsync, []), Future.value(null))
+      (super.noSuchMethod(Invocation.method(#stopAsync, []))
           as _i3.Future<void>);
 }
 
